@@ -1,0 +1,28 @@
+.top {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top .rightAvatar {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.top .rightAvatar > span {
+  padding: 0 8px;
+}
+.top .rightAvatar .icondown {
+  position: absolute;
+  right: -12px;
+  bottom: 10px;
+}
+.top .rightAvatar .avatat_drop {
+  position: absolute;
+  right: 0px;
+  top: 70px;
+  z-index: 555;
+  text-align: center;
+}

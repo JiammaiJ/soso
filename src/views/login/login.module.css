@@ -1,0 +1,28 @@
+.login {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../../assets/img/bg.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login .text {
+  width: 100%;
+  text-align: center;
+}
+.login .text span {
+  font-size: 88px;
+  color: white;
+  font-family: 'Sigmar One';
+}
+.login .text:hover {
+  opacity: 0.5;
+}
+.login .login_form {
+  min-width: 300px;
+}

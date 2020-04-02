@@ -1,0 +1,54 @@
+export default [
+    {
+        key:'/dashboard',
+        icon:'pie-chart',
+        title:'首页'
+    },{
+        key:'/product',
+        icon:'mail',
+        title:'商品',
+        children:[
+            {
+                key:'/category',
+                title:'品类管理'
+            },{
+                key:'/manage',
+                title:'商品管理'
+            }
+        ]
+    },{
+        key:'/user',
+        icon:'user',
+        title:'用户管理'
+    },{
+        key:'/role',
+        icon:'safety',
+        title:'角色管理'
+    },
+    {
+        key:'/components',
+        icon:'appstore',
+        title:'Components',
+        children:[
+            {
+                key:'/braftEditor',
+                title:'braft-editor'
+            },{
+                key:'/10',
+                title:'Option 10'
+            },{
+                key:'/sub3',
+                title:'Submenu',
+                children:[
+                    {
+                        key:'/11',
+                        title:'Option 11'
+                    },{
+                        key:'/12',
+                        title:'Option 12'
+                    }
+                ]
+            }
+        ]
+    }
+]
