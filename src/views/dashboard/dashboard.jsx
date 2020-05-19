@@ -108,7 +108,7 @@ class Dashboard extends React.Component {
                         <Card
                             hoverable
                             style={{ width: '100%', overflow: 'hidden' }}
-                            // cover={<img alt="img" className={style.pichover} src={require('../../../src/assets/img/pic1.png')} />}
+                            cover={<img alt="img" className={style.pichover} src={require('../../assets/img/bg.jpg')} />}
                         >
                             <div className={style.skill}>
                                 <div>
@@ -131,7 +131,7 @@ class Dashboard extends React.Component {
                         <Card
                             hoverable
                             style={{ width: '100%', overflow: 'hidden' }}
-                            // cover={<img alt="img" className={style.pichover} src={require('../../assets/img/pic2.jpg')} />}
+                            cover={<img alt="img" className={style.pichover} src={require('../../assets/img/pic2.jpg')} />}
                         >
                             <div className={style.skill}>
                                 <div>
@@ -152,7 +152,7 @@ class Dashboard extends React.Component {
                         <Card
                             hoverable
                             style={{ width: '100%', overflow: 'hidden' }}
-                            // cover={<img alt="img" className={style.pichover} src={require('../../assets/img/pic3.jpg')} />}
+                            cover={<img alt="img" className={style.pichover} src={require('../../assets/img/pic1.jpg')} />}
                         >
                             <div className={style.skill}>
                                 <div>

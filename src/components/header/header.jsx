@@ -33,6 +33,7 @@ class Top extends React.Component {
         if (path !== '/dashboard') {
             searchBread(siderConfig)
         }
+        console.log(breadArr)
         return breadArr.map((item, index) => {
             return (
                 <Breadcrumb.Item key={index}><span>{item}</span></Breadcrumb.Item>
